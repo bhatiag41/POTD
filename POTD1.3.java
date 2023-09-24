@@ -7,8 +7,6 @@ class potd {
     {
         for (int i = 1; i <= n; i++) {
             for (int j = 0; j <= n - i; j++) {
-  
-                // for left spacing
                 System.out.print(" ");
             }
             int x = 1;
