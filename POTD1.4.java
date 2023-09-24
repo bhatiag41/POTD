@@ -1,7 +1,6 @@
 
 import java.util.Scanner;  
-
-public class ButterFlyPatternExample {  
+public class ButterFly{  
     public static void drawButterflyPattern(int N) {  
 
         int space = 2*N-1;  
@@ -29,14 +28,12 @@ public class ButterFlyPatternExample {
                         System.out.println();  
                 }  
     }  
-
         public static void main(String[] args) {  
         int N;  
   
              Scanner sc = new Scanner(System.in);  
                 System.out.println("Enter value of N");  
-        N = sc.nextInt();  
-        // call drawButterflyPattern() method   
+        N = sc.nextInt();   
         drawButterflyPattern(N);  
         }  
 }  
