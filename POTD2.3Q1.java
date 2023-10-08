@@ -1,9 +1,7 @@
-// Java Program to print pattern 
-// Mirror Image of a triangle 
+
 import java.util.*; 
 
 public class Main { 
-	// Function to demonstrate pattern 
 	public static void printPattern(int n) 
 	{ 
 		int i, j; 
@@ -29,7 +27,8 @@ public class Main {
 	} 
 	public static void main(String args[]) 
 	{ 
-		int n = 6; 
+		Scanner sc= new Scanner(System.in);
+		int n = sc.nextInt();
 		printPattern(n); 
 	} 
 }
